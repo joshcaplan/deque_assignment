@@ -1,4 +1,3 @@
-Answer any exam questions here
 Name: Josh Caplan
 WUSTL ID: 457632
 
@@ -9,15 +8,15 @@ elements.
 In this program, I added two unrequired member functions to the my_deque class:
 
 	1) void resize()
-		This helper function is used to either enlarge the array when the lIndex or rIndex reaches beyond the array or shrink the array. If the number of elements 
-		is greater than half of its size (get_used()>size), when the lIndex or rIndex reaches beyond the array, it doubles the array. If the array is greater than 
-		its initial size and the number of elements is less than 1/8 of the array's current size, it halves the array.
+		This helper function is used to either enlarge the array when the lIndex or rIndex reaches beyond the array or shrink the array. If the number of 		  elements is greater than half of its size (get_used()>size), when the lIndex or rIndex reaches beyond the array, it doubles the array. If the array is 		 greater than its initial size and the number of elements is less than 1/8 of the array's current size, it halves the array.
 	
 	2) void print()
-		This member function is used to print out the entire array that holds the deque. Uninitialized indices will print out "_" while initialized indices will
-		print out their value
+		This member function is used to print out the entire array that holds the deque. Uninitialized indices will print out "_" while initialized indices 		    will print out their value
 
-I passed all of the tests except the "random_test_large". I am not exactly sure why this one failed
+----------------------------------------------------
+Deque_test Folder:
+
+	In order to test my program, I used the tests in this folder. I passed all of the tests except the "random_test_large". I am not exactly sure why this one failed
 
 ---------------------------------------------------------------------
 
