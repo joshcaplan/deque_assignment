@@ -16,7 +16,7 @@ In this program, I added two unrequired member functions to the my_deque class:
 ----------------------------------------------------
 Deque_test Folder:
 
-	In order to test my program, I used the tests in this folder. I passed all of the tests except the "random_test_large". I am not exactly sure why this one failed
+	In order to test my program, I used the tests in the deque_test folder. I passed all of the tests except the "random_test_large". I am not exactly sure why this one failed
 
 ---------------------------------------------------------------------
 
